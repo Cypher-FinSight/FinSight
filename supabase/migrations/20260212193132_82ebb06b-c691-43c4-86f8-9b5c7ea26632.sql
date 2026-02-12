@@ -1,0 +1,1 @@
+ALTER TABLE public.profiles ADD COLUMN insurance_amount numeric NOT NULL DEFAULT 0;
