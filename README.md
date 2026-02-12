@@ -1,73 +1,175 @@
-# Welcome to your Lovable project
+# 💰 FinSight – Clarify Your Spending, Fortify Your Savings
 
-## Project info
+> A transparent, AI-assisted financial awareness platform designed to help young Indians understand, measure, and improve their financial health.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+## 🚀 Problem Statement
 
-There are several ways of editing your application.
+A significant portion of household income in India is spent on EMIs, necessities, and discretionary lifestyle expenses, leading to reduced savings and increasing financial vulnerability.
 
-**Use Lovable**
+Key concerns:
+- High EMI burden
+- Shrinking household savings
+- Rising personal loans
+- Impulse and lifestyle-driven spending
+- Lack of structured financial awareness
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+FinWise aims to bridge the gap between income and financial discipline through explainable scoring and actionable insights.
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🎯 Our Solution
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+FinWise is a personal finance awareness platform that helps users:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- Track expenses manually
+- Set category-wise budgets
+- Compute a **Finance Health Score (0–100)**
+- Get AI-based awareness recommendations
+- Plan emergency funds
+- Simulate SIP & SWP projections
+- Understand financial risk exposure
 
-Follow these steps:
+Unlike investment apps, FinWise focuses on **awareness, transparency, and responsible financial behavior** — not transactional investing.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🧠 Core Features
 
-# Step 3: Install the necessary dependencies.
-npm i
+### 🔐 User Authentication
+- Email/Phone registration & login
+- User profile with income, goals, and salary date
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+### 💸 Expense Management
+- Add/Edit/Delete expenses
+- Category-based summaries
+- Manual override for auto-categorization
 
-**Edit a file directly in GitHub**
+### 📊 Budgeting System
+- Category-wise monthly budgets
+- Alerts at 80% and 100% usage
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### 🧮 Finance Health Score (USP)
+A weighted score (0–100) based on:
+- Savings discipline
+- Debt percentage
+- Emergency fund coverage
+- Investment ratio
+- Insurance coverage
+- Credit dependency
+- Miscellaneous leakage
 
-**Use GitHub Codespaces**
+Includes:
+- Sub-score breakdown
+- Level classification (Poor / Average / Good / Excellent)
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### 🤖 AI Awareness Engine
+- Behavior-based financial insights
+- Explainable recommendations
+- No product promotions or biased suggestions
 
-## What technologies are used for this project?
+### 🚨 Emergency Fund Planner
+- Recommends 3–6 months target
+- Alerts when coverage < 1 month
 
-This project is built with:
+### 📈 SIP & SWP Simulators
+- Future corpus projection
+- Withdrawal longevity simulation
+- Scenario-based return estimates
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### 👨‍💼 Optional Expert Consultation
+- View available experts
+- Book appointments
+- Share structured financial report
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+## 🏗️ System Architecture Overview
 
-## Can I connect a custom domain to my Lovable project?
+### Major Modules
+- Authentication Module
+- Expense Tracker
+- Budget Engine
+- Health Score Engine
+- AI Recommendation Engine
+- SIP/SWP Projection Engine
+- Emergency Fund Engine
+- Expert Appointment Module
 
-Yes, you can!
+### Core Data Entities
+- User
+- Expense
+- Budget
+- Debt
+- Insurance
+- Emergency Fund
+- Credit Card
+- Expert
+- Appointment
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## ⚙️ Hackathon MVP Scope
+
+### ✅ Implemented / Feasible
+- Manual expense tracking
+- Rule-based health scoring
+- Budget alerts
+- Emergency fund warnings
+- SIP/SWP simulators
+- AI prompt-based awareness suggestions
+
+### ⏳ Future Scope
+- Secure bank & UPI auto-sync
+- Gamified financial discipline (streaks & badges)
+- Anonymous peer benchmarking
+- Advanced risk scoring
+- Regional language support
+- B2B embedded finance APIs
+
+---
+
+## 🎯 Target Users
+
+- Students
+- Young professionals
+- Salaried individuals
+- Beginner investors
+- Anyone seeking structured financial awareness
+
+---
+
+## 🔐 Non-Functional Requirements
+
+- Encrypted user financial data
+- Secure authentication & session handling
+- Health score calculation < 2 seconds
+- Beginner-friendly UI/UX
+
+---
+
+## 🌟 Vision
+
+To become a one-stop **financial awareness ecosystem** for young Indians — promoting transparency, discipline, and long-term financial stability.
+
+---
+
+## 👥 Team FinWise
+
+Built during a Hackathon / Ideathon.
+
+Contributors:
+- Piyush
+- Nitin
+- Rahul
+- Harsh
+
+---
+
+## 📌 Disclaimer
+
+FinWise provides financial awareness and educational insights only.  
+It does not offer investment advice, brokerage services, or financial guarantees.
+
+---
